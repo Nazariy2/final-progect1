@@ -1,0 +1,28 @@
+body{
+    font-family: 'Inter' sans-serif;
+	line-height: normal;
+	font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+}
+.header-image-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-item-span {
+}
+.header-list-buttons {
+}
+.header-list-button-log {
+}
+.header-list-button {
+}
