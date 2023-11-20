@@ -84,13 +84,34 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-	
+width: 140px;
+height: 40px;
+border-radius: 45px 0px;
+border: 3px solid var(--secondary-color);
+background: var(--third-color);
+
+}
+.header-button-a{
+	color: var(--secondary-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .header-list-button-log-button{
 	color: var(--third-color);
 	border-radius: 35px ;
 }
 .header-list-button {
+	color: var(--white-color);
+text-align: center;
+font-family: Hammersmith One;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 /*MAIN*/
 .main {
@@ -134,15 +155,21 @@ line-height: normal;
 margin-right: 204px;
 }
 .page-hero-buttons {
-	
-}
-.page-hero-button {
 	width: 260px;
 height: 80px;
 flex-shrink: 0;
 border-radius: 45px 0px;
 border: 3px solid var(--secondary-color);
-background: var();
+background: var(--third-color);
+}
+.page-hero-button {
+	color: var(--secondary-color);
+text-align: center;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .page-hero-list {
 gap: 15px;
@@ -255,6 +282,7 @@ line-height: normal;
 .section-features {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	height: 704px;
 flex-shrink: 0;
 background-image:url(../img/background-features.png) ;
@@ -265,6 +293,14 @@ background-image:url(../img/background-features.png) ;
 .container {
 }
 .section-features-title {
+	justify-content: center;
+	color: var(--primary-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .section-feature-list {
 	display: flex;
@@ -273,6 +309,13 @@ background-image:url(../img/background-features.png) ;
 	align-items: center;
 	justify-content: center;
 	margin-top: 143px;
+	color: var(--primary-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 100% */
 }
 .section-feature-items {
 	width: 320px;
